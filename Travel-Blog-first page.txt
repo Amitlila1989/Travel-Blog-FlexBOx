@@ -1,4 +1,4 @@
-This is the code of travel blog.
+This is the mobile version of the first page.
 
 @import url(./_reset.css);
 @import url(./_base.css);
