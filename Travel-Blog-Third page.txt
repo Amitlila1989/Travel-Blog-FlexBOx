@@ -1,0 +1,22 @@
+This is the desktop version.
+
+@media all and (min-width: 900px) {
+    ul{
+        border: 2px red solid;
+        flex-wrap: nowrap;
+    }
+    li {
+        flex: 3;
+    }
+    .social{
+        flex: 1;
+    }
+
+    .signup {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+}
