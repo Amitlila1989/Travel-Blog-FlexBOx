@@ -1,1 +1,60 @@
 This is the code of travel blog.
+
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+@import url(./_base-blog.css);
+
+/* Flex Container */
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*javascript toggle*/.open { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*items*/ ul {
+    display: none;
+}
+
+/* Flex Item */
+
+/*headline-our travel blog*/ .top {
+    margin-top: 2rem;
+    flex-basis: 100%;
+    order: -5;
+}
+
+/*menu*/ .flex-nav {
+    order: -6;
+}
+
+li {
+    flex-basis: 100%;
+}
+
+.social {
+    flex: 25%;
+}
+
+/*picture*/ .hero {
+    order: -2;
+}
+
+.details {
+    order: -4;
+}
+
+.signup {
+    order: -3;
+}
+
+footer {
+    /* border: 2px deeppink dotted ; */
+    order: -1;
+    /* margin-bottom: 5rem; */
+}
