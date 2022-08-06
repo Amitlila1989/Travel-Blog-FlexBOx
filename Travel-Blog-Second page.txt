@@ -1,0 +1,28 @@
+This is the tablet version.
+
+
+@media all and (min-width: 550px) {
+    .top {
+        order: -6;
+        padding-bottom: 3rem;
+    }
+
+    .flex-nav {
+        order: -5;
+    }
+
+    .hero {
+        order: -4;
+    }
+
+    .details {
+        order: -3;
+    }
+
+    .signup {
+        order: -2;
+    }
+    li{
+        flex-basis: 50%;
+    }
+}
